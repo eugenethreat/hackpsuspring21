@@ -1,0 +1,48 @@
+/*
+COLOR SCHEME: 
+https://coolors.co/c3f73a-95e06c-68b684-094d92-1c1018
+
+background - #1C1018
+TEXT = ##e0e0e0
+
+*/
+
+body {
+  background-color: #1c1018;
+}
+
+#content {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 30px 10px;
+
+  background-color: #68b684;
+}
+
+#header {
+  background-color: #95e06c;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 10px;
+
+}
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+  background-color: #094d92;
+  width: 100%;
+  margin-left: 0%;
+  text-align: center;
+  color: #e0e0e0;
+}
+
+.text-center{
+    padding: 10px 10px;
+}
+
+.readableText{
+    padding: 10px 10px;
+}
