@@ -38,11 +38,7 @@ this is where server-related code will be
 for sending things to the ML models
 */
 
-// let spotifyId = "9cada7ab405946399f5d7fafe7cacfb0";
-// let spotifySecret = "7535f3478e0a4befbc4529e56eb3c0ee";
-
 //sample http request that auths to spotify and redirects to live site
-//https://accounts.spotify.com/authorize?client_id=9cada7ab405946399f5d7fafe7cacfb0&response_type=code&redirect_uri=https://extreme-gecko-308201.ue.r.appspot.com/index.html&scope=user-read-private%20user-read-email&state=34fFs29kd09
 
 app.get("/test", (req, res) => {
   res.send("testtt");
@@ -52,9 +48,6 @@ app.get("/test", (req, res) => {
 app.get("/getcode", (req, res) => {
   console.log("getting code...");
   //get the fucking code
-  let spotifyId = "9cada7ab405946399f5d7fafe7cacfb0";
-  let spotifySecret = "7535f3478e0a4befbc4529e56eb3c0ee";
-
   //    axios.get("https://accounts.spotify.com/authorize?client_id=9cada7ab405946399f5d7fafe7cacfb0&response_type=code&redirect_uri=https://extreme-gecko-308201.ue.r.appspot.com/index.html&scope=user-read-private%20user-read-email&state=34fFs29kd09")
 
   //step 1: make sure auth code is contained in current url
